@@ -40,9 +40,9 @@ Token de acesso pessoal:
 
 Configuração inicial antes de criar nosso primeiro arquivo é necessário configurá-lo através de um email e um username. Para que o commit apresente o autor. 
 
- - git config - -global user.email ‘’marccosjjunior@gmail.com “ 
- - git config - -global user.name ‘’MarcosJunior “ 
- 
+ - git config - -global user.email ‘’email “ 
+ - git config - -global user.name ‘’nomedeusuário “ 
+
 **Tracked e Untracked**
 Tracked: arquivos que a gente tem ciência deles. 
 Untracked: arquivos que a gente não tem ciência deles. Ex: arquivos que estão sendo criados - git init e quando damos o comando git add * Esses arquivos que estão Untracked, ou seja, que acabaram de ser criados com o Git init é movido direto para o Staged está aguardando alguma coisa ou uma nova modificação.
